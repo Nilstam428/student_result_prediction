@@ -12,7 +12,7 @@ st.subheader("Try your result too.")
 
 
 # load model and preprocessing.
-model = pickle.load(open("ML class/Student_result_prediction.pkl", "rb"))
+model = pickle.load(open("Student_result_prediction.pkl", "rb"))
 
 # def clear_text():
 #     st.session_state["num_hours"] = 0
